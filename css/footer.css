@@ -1,0 +1,113 @@
+/* ------------------------------------------
+      4. FOOTER -- For all screen sizes 
+------------------------------------------ */
+footer {
+  padding: 0 10px;
+}
+  footer .callout.header div {
+    font-size: 20px;
+    color: #674B2F;
+    font-weight: 700;
+  }
+  footer h4 {
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+/*for the cupon ad*/
+.cupon-circle {
+  border-radius: 50%;
+  background: #F5BC48;
+  color: #FEFFFF !important;
+  font-weight: bold;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: -26px auto;
+  padding: 25px; 
+  position: relative;
+  box-shadow: 10px 1px 50px grey; 
+  z-index: 1;
+  display: block;
+}
+/*-- To make the style of the email input --*/
+.signup-input {
+  display: inline-flex;
+  background: white;
+  border: 2px solid #cacaca;
+  border-radius: 25px; 
+}
+  .signup-button {
+    border: none !important; 
+    border-radius: 50% !important;
+    background-color: #FEFFFF;
+    color: #0a0a0a; 
+}
+  .signup-button:hover, .signup-button:focus {
+    background-color: #F2F4F0;
+    color: #674B2F; 
+  }
+  .signup-input:hover {
+      background-color: #F2F4F0;
+      color: #674B2F; 
+      transition: background-color 0.25s ease-out, color 0.25s ease-out;
+  }
+.no-margin{
+  margin: 0; 
+}
+.email {
+  border-top: none;
+  border-bottom: none;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px; 
+  width: 12rem;
+}
+/*-- --*/
+.footer-padding {
+  padding: 0 0 10px 0; 
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.has-guillemet {
+  display: flex;
+  flex-direction: row;
+}
+.has-guillemet::before {
+  content: '>';
+  font-size: 20px;
+  color: #0a0a0a;
+  margin: 0 1px 0 30px;
+}
+.no-guillemet {
+  margin: 0 0 0 30px;
+}
+.has-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+  .has-line::after {
+    content: '|';
+    font-size: 20px;
+    color: #0a0a0a;
+    margin: 0 0.25rem;
+  }
+  .has-line:last-child:after {
+    content: ''; 
+  }
+.padding-logo {
+  padding: 5px !important;
+}
+u {
+  color: #F5BC48;
+  text-decoration: none;
+}
+.ad-margin {
+  margin-top: 30px; 
+}
+.padding-rights {
+  padding: 10px 30px; 
+}
+.padding-terms {
+  padding: 10px 0 20px 0; 
+}

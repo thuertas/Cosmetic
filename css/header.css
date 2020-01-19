@@ -1,0 +1,110 @@
+/* -----------------------------------------
+    1. HEADER -- For all screen sizes 
+-----------------------------------------  */
+.title-bar {
+  z-index: 9; 
+}
+  .title-bar .title-bar-center img {
+    width: 200px; /*Had to ajust the size of the Cosmetic Logo for the sticky header*/
+  }
+  .title-bar .title-bar-left img {
+    margin-right: 20px;
+  }
+.index {
+  z-index: 14;
+}
+.top-bar {
+  background: #FEFEFE;
+  margin: 0 auto 0 auto; 
+  padding: 0 12% 0 12%;
+  border-bottom: 2px solid #DFE5D9;
+}
+  .top-bar-left a {
+    color: #000000;
+    padding: 11.2px 2px 11.2px 2px;
+  }
+    .top-bar-left a:hover {
+      color: #674B2F;
+      background-color: #E6E8E2;
+      border-radius: 3px;
+    }
+  .top-bar-center {
+    text-align: center;
+    width: 40%;
+  }
+    .top-bar-center img {
+      width: 60%; 
+    }
+  .top-bar-right a{
+    color: #000000;
+    padding: 0;
+  }
+    .top-bar-right li:first-child a{
+      color: #000000;
+      padding: 11.2px 5px 11.2px 5px;
+    }
+    .top-bar-right li:first-child a:hover {
+      color: #674B2F;
+      background-color: #E6E8E2;
+      border-radius: 3px;
+    }
+  .top-bar-menu {
+    position: fixed;
+    z-index:  9;
+    display:  none;
+    width:    100%;
+  }
+/* --To add all the slashes between Check out, Login, Register and Contact: */
+.has-slash {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+  .has-slash::after {
+    content: '/';
+    color: #0a0a0a;
+    margin: 0 0.25rem;
+  }
+  .has-slash:last-child:after {content: ''; }
+/* -- -- */
+
+
+
+/* -----------------------------------------
+2. NAVIGATION BAR -- only for large screens
+----------------------------------------- */
+.nav-block {
+  border-bottom: 2px solid #DFE5D9; 
+}
+  .nav-block .has-dropdown > a:after {
+    border-style: none !important; 
+  } /*to delete the dropdown arrow*/
+  .nav-block .menu .submenu-a{ /*to style the list in the menu*/
+    text-transform: capitalize !important;
+    width: 100%;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+.column {/* to center the buttons*/
+  width: 80%;
+  margin: 0 auto 0 auto;  
+}
+.search-margin {
+  margin: .10vw 0; 
+}
+/* -- to costumize the selector and delete the border -- */
+select { 
+  border: 0px;
+  outline: 0px;
+  width: 65px;
+}
+  select:focus {
+    border: 0px;
+    outline: 0px;
+    box-shadow: none;
+    background-color: #FEFFFF;
+  }
+/* -- -- */
+input::-webkit-calendar-picker-indicator {
+  display: none; 
+} /*to remove the arrow of the datalist*/

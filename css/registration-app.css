@@ -1,0 +1,52 @@
+/*                                  CONTENT 
+1. BACKGROUND IMAGE
+2. PLACEHOLDERS AND INPUTS
+    2.1 Class: TRANSLUCENT-FORM-OVERLAY
+
+*/
+/*-----------------------------------------------------------------------*/
+
+/* -----------------------------------------
+        1. BACKGROUND IMAGE
+-----------------------------------------  */
+.bgimg {background: url("../images/beauty_products.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* -----------------------------------------
+       2. PLACEHOLDERS AND INPUTS
+-----------------------------------------  */
+.translucent-form-overlay {
+  max-width: 500px;
+  width: 100%;
+  background-color: #F5BC48;
+  border-radius: 3px;
+  padding: 20px;
+  color: #fefefe;
+  float: right;
+}
+  .translucent-form-overlay .columns.row {
+    display: block; 
+  }
+  .translucent-form-overlay h3, .translucent-form-overlay label {
+    color: #fefefe; 
+  }
+  .translucent-form-overlay input, .translucent-form-overlay select {
+    color: #8a8a8a; 
+    text-indent: 10px;
+  }
+  .translucent-form-overlay input::-webkit-input-placeholder {
+    color: #8a8a8a; 
+    text-indent: 10px;
+  }
+  .translucent-form-overlay input:-ms-input-placeholder {
+    color: #8a8a8a; 
+    text-indent: 10px;
+  }
+  .translucent-form-overlay input::placeholder {
+    color: #8a8a8a; 
+    text-indent: 10px;
+  }

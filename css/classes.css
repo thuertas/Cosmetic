@@ -1,0 +1,72 @@
+/*                                  CONTENT 
+1.  ADDING NEW CLASSES
+      1.1 New buttons
+      1.2 New Callout
+
+*/
+/*-----------------------------------------------------------------------*/
+
+/* ------------------------------------------
+            1. ADDING NEW CLASSES
+------------------------------------------ */
+/*buttons*/
+.button.slider {
+  text-transform: uppercase;
+  background-color: #F5BC48;
+  color: #FEFFFF;
+  font-weight: bold;
+  width: 170px;
+  height: 50px;
+  margin: 0;
+  border-radius: 25px; 
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px; 
+} 
+    .button.slider:hover, .button.slider:focus {
+      background-color: #f0a60d;
+      color: #FEFFFF; 
+    }
+.button.wider { 
+  padding: 0.75rem 2.5rem; 
+}
+.button.extra { 
+    color: #0a0a0a; 
+    border: 2px solid rgba(10, 10, 10, 0.25);
+    text-transform: uppercase;
+    border-radius: 25px; 
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px; 
+    font-weight: 600;
+}
+  .button.extra:hover, .button.extra:focus {
+    background-color: #F2F4F0;
+    color: #674B2F; 
+  }
+}
+.button-logo {
+  width: 3rem;
+  border-radius: 25px; 
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px; 
+  background-color: #fefefe;
+}
+  .button-logo:hover, .button-logo:focus {
+    background-color: #F5BC48;
+    border-radius: 25px; 
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px; 
+  }
+.button.rgst {
+  background: #0a0a0a;
+  color: #fefefe;
+  border-radius: 25px !important;
+  font-size: 16px;
+}
+
+/*Callout*/
+.callout.log {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #F5BC48;
+}

@@ -1,0 +1,47 @@
+/*                                  CONTENT 
+1. Backgroudn image 
+2. SHOW/HIDE PASSWORD BUTTON
+
+*/
+/*-----------------------------------------------------------------------*/
+
+.logimg {background-image: url("../images/login-image.jpg");/*Photo by Jake Peterson on Unsplash*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* -----------------------------------------
+        2. SHOW/HIDE PASSWORD BUTTON
+-----------------------------------------  */
+/*Taken from: https://foundation.zurb.com/building-blocks/blocks/show-password.html*/
+.password + .unmask {
+  display: inline-flex;
+  text-indent: -9999px;
+  width: 25px;
+  height: 25px;
+  background: #fefefe;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  -webkit-appearance: none;
+}
+  .password + .unmask:before {
+    content: "";
+    display: inline-flex;
+    width: 17px;
+    height: 17px;
+    background: #e3e3e3;
+    z-index: 1;
+    border-radius: 50%;
+  }
+  .password[type="text"] + .unmask:after {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background: #0a0a0a;
+    border-radius: 50%;
+    z-index: 19;
+  }

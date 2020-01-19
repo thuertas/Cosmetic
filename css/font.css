@@ -1,0 +1,42 @@
+/*                                  CONTENT 
+1. Font declaration 
+2. Font sizes
+3. Font colors
+
+*/
+/*-----------------------------------------------------------------------*/
+body {font-family: 'Raleway', sans-serif;} /*from Google Fonts*/
+
+/*font sizes*/
+.font-small       {
+	font-size: 14px !important; 
+}
+.font-medium      {
+	font-size: 18px !important; 
+}
+.font-large       {
+	font-size: 22px !important; 
+}
+.font-poster      {
+	font-size: 60px !important; 
+}
+.font-poster-slider {
+	font-size: 5vw !important;
+}
+.font-large-slider  {
+	font-size: 3vw !important;
+}
+.font-medium-slider {
+	font-size: 2vw !important;
+}
+.font-br-small {
+  display: block; 
+  margin:-10px;
+}
+/*font colors*/
+.font-color       {
+	color: #F0981F; 
+}
+.font-color-basic {
+	color: #0a0a0a; 
+}
